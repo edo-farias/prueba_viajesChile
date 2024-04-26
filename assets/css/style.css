@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #000;
+    font-family: 'Cabin', sans-serif;
+}
+img {
+    object-fit:cover;
+}
+#scrollspyHeading1 img{
+    height: 100vh;
+}
+

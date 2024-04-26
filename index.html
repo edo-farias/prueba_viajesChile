@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nombre -->
+    <meta name="author" content="Eduardo Farias Concha">
+    <!-- Título de la pestaña -->
+    <title>Viajes Chile</title>
+    <!-- Bootstrap 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Estilo CSS propio -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap" rel="stylesheet">
+    <!-- FontAwesom 6.5.2-->
+    <script src="https://kit.fontawesome.com/7d4f10acf2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Como inicio de la página se encuentra el menu de navegación -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#"><img src="assets/img/viajes.svg" alt="logo viajes chile"
+                    width="30" height="24">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading3">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading4">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Con esta linea se indica en el menu en que sección se encuentra y aplica el smooth scroll -->
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+        class="scrollspy-example " tabindex="0">
+        <!-- Comienza el contenedor que contiene el carrusel de imagenes -->
+        <header>
+            <!-- Carrusel de imagenes -->
+            <div class="container-fluid px-0" id="scrollspyHeading1">
+                <div id="carousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- Comienza el contenido principal de la página -->
+        <main>
+            <!-- Sección de quienes somos contiene 3 cards y tambien iconos de fontawesom-->
+            <section class="d-none d-lg-block">
+                <h2 id="scrollspyHeading2" class="text-center text-white pt-5 pb-4">¿QUIÉNES SOMOS?</h2>
+                <div class="container-fluid px-5">
+                    <hr class="border border-info border-1 opacity-50">
+                </div>
+                <div class="container pt-5 pb-5 px-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 bg-transparent">
+                                <div class="card-header bg-info text-center text-white p-0 fs-2"> <i
+                                        class="fa-solid fa-plane"></i></div>
+                                <div class="card-body p-0">
+                                    <p class="card-text text-white pt-2">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ipsam rerum nisi unde vel fuga natus libero voluptates laborum
+                                        odio quisquam facere, repudiandae repellat. Nostrum eligendi, architecto modi
+                                        doloribus velit obcaecati magni quibusdam voluptate ex rerum perferendis
+                                        dignissimos incidunt corporis iusto quaerat? Consequatur animi, voluptatum
+                                        ratione voluptatem id beatae odit dignissimos nemo ullam explicabo nesciunt
+                                        adipisci! Laborum quaerat nisi qui saepe atque ab voluptas excepturi mollitia
+                                        aut quisquam cum reiciendis maiores voluptatibus harum eaque dolorem, eveniet
+                                        pariatur animi iure. Explicabo distinctio assumenda veniam voluptates natus
+                                        voluptatum esse error nam, iure quia obcaecati libero repellat laborum quod
+                                        temporibus aut rem quam fugit ad alias ut vitae vel.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 bg-transparent">
+                                <div class="card-body p-0">
+                                    <p class="card-text text-white pb-2">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ipsam rerum nisi unde vel fuga natus libero voluptates laborum
+                                        odio quisquam facere, repudiandae repellat. Nostrum eligendi, architecto modi
+                                        doloribus velit obcaecati magni quibusdam voluptate ex rerum perferendis
+                                        dignissimos incidunt corporis iusto quaerat? Consequatur animi, voluptatum
+                                        ratione voluptatem id beatae odit dignissimos nemo ullam explicabo nesciunt
+                                        adipisci! Laborum quaerat nisi qui saepe atque ab voluptas excepturi mollitia
+                                        aut quisquam cum reiciendis maiores voluptatibus harum eaque dolorem, eveniet
+                                        pariatur animi iure. Explicabo distinctio assumenda veniam voluptates natus
+                                        voluptatum esse error nam, iure quia obcaecati libero repellat laborum quod
+                                        temporibus aut rem quam fugit ad alias ut vitae vel.</p>
+                                </div>
+                                <div class="card-footer bg-info text-center text-white p-0 fs-2"> <i
+                                        class="fa-solid fa-mountain"></i></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 bg-transparent">
+                                <div class="card-header bg-info text-center text-white p-0 fs-2"> <i
+                                        class="fa-solid fa-route"></i></div>
+                                <div class="card-body p-0">
+                                    <p class="card-text text-white pt-2">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Ipsam rerum nisi unde vel fuga natus libero voluptates laborum
+                                        odio quisquam facere, repudiandae repellat. Nostrum eligendi, architecto modi
+                                        doloribus velit obcaecati magni quibusdam voluptate ex rerum perferendis
+                                        dignissimos incidunt corporis iusto quaerat? Consequatur animi, voluptatum
+                                        ratione voluptatem id beatae odit dignissimos nemo ullam explicabo nesciunt
+                                        adipisci! Laborum quaerat nisi qui saepe atque ab voluptas excepturi mollitia
+                                        aut quisquam cum reiciendis maiores voluptatibus harum eaque dolorem, eveniet
+                                        pariatur animi iure. Explicabo distinctio assumenda veniam voluptates natus
+                                        voluptatum esse error nam, iure quia obcaecati libero repellat laborum quod
+                                        temporibus aut rem quam fugit ad alias ut vitae vel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- En esta sección se encuentran los destacados que contiene 4 cards-->
+            <section>
+                <h2 id="scrollspyHeading3" class="text-center text-white pt-5 pb-4">DESTACADOS</h2>
+                <div class="container-fluid px-5">
+                    <hr class="border border-info border-1 opacity-50">
+                </div>
+                <div class="container pt-5 px-5">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                            <div class="card h-100 bg-info text-white">
+                                <img src="assets/img/card1.jpg" alt="" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+                                        ipsam autem provident sunt dignissimos nam recusandae, quam similique quas
+                                        possimus a debitis dolores unde? Perferendis quo repellendus minus accusamus
+                                        aliquam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 bg-info text-white">
+                                <img src="assets/img/card2.jpg" alt="" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Consectetur adipisicing elit</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+                                        ipsam autem provident sunt dignissimos nam recusandae, quam similique quas
+                                        possimus a debitis dolores unde? Perferendis quo repellendus minus accusamus
+                                        aliquam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 bg-info text-white">
+                                <img src="assets/img/card3.jpg" alt="" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                                        delectus temporibus, porro ea ullam adipisci et iusto voluptatum nemo
+                                        exercitationem, reiciendis mollitia molestiae repellat placeat eveniet cumque
+                                        dicta esse consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 bg-info text-white">
+                                <img src="assets/img/card4.jpg" alt="" height="200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ut enim ad minim veniam</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+                                        eaque qui vel a, quia repellendus doloremque aliquid reprehenderit iusto,
+                                        dolorem maxime amet porro reiciendis fugiat incidunt inventore sapiente.
+                                        Perspiciatis, vitae!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- En esta sección se encuentra un formulario de contacto -->
+            <section class="pb-5">
+                <h2 id="scrollspyHeading4" class="text-center text-white pt-5 pb-4">CONTACTO</h2>
+                <div class="container-fluid px-5 pb-3">
+                    <hr class="border border-info border-1 opacity-50">
+                </div>
+                <form class="container px-5 text-white">
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput2" class="form-label">Asunto</label>
+                        <input class="form-control" id="exampleFormControlInput2">
+                    </div>
+                    <div class="mb-5">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button id="enviarCorreo" type="button" class="btn bg-info me-4 text-white"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    title="Presiona para enviar tu correo">
+                                    Enviar
+                                </button>
+                    </div>
+                </form>
+
+            </section>
+        </main>
+    </div>
+    <!-- En esta sección se encuentra el pie de página -->
+    <footer class="container-fluid bg-info py-1">
+        <div class="container pt-4 pb-4 text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="text-white">VIAJES CHILE</h2>
+                </div>
+                <div class="col-md-4 ms-auto">
+                    <a href="https://github.com/" target="_blank">
+                        <i class="fab fa-github-square fa-2x me-1 mt-2 text-white"></i>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x mx-1 text-white"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter-square fa-2x mx-1 text-white"></i>
+    
+                    </a>
+                    <a href="https://facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x ms-1 text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Script de JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!--Script propio-->
+    <script src="assets/js/script.js"></script>
+
+
+</body>
+
+</html>
